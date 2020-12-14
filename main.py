@@ -19,4 +19,4 @@ for i in range(1, d + 1):
         s *= (1+pc/100)
         print(format(s, '.2f') + (14 - len(format(s, '.2f'))) * " ", '|', sep='')  # Вывод значений 'Капитал' + Оформление таблицы
         s += invest
-    print('-' * 54)
+    print('-' * 54, '\n', sep='')
