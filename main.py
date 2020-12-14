@@ -17,3 +17,4 @@ for i in range(1, d + 1):
         print(format(s, '.2f') + (14 - len(format(s, '.2f'))) * " ", '|', sep='')
         s += invest
     print('-' * 54)
+    
