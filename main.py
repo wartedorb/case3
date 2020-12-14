@@ -5,9 +5,9 @@ invest = int(input("Введите размер инвестиционных в�
 
 for i in range(1, d + 1):
     print(i, 'год')
-    print('-' * 53)
+    print('-' * 54)
     print('|         |    основа    |  сумма %   |              |\n|  месяц  |  инвестиций  |  за месяц  |   капитал    |')
-    print('-' * 53)
+    print('-' * 54)
     for i in range(1, 13):
         if len(str(i)) < 2:
             print('|   ', i, '   |', end='')
@@ -30,4 +30,4 @@ for i in range(1, d + 1):
         else:
             print(format(s, '.2f'), '|', sep="", end='\n')
         s += invest
-    print('-' * 47)
+    print('-' * 54)
